@@ -33,13 +33,24 @@
 
 <section>
 	<h1>News</h1>
-	<ul>
+	<div>
 		{#each articles as article (article._id)}
-			<li class='article-{article._id}'>
-				<span>{article.title}</span>
-			</li>
-	{/each}
-	</ul>
+			<div class='article-{article._id}'>
+				<h2><a href='/article/{article.slug}-{article._id}'>{article.title}</a></h2>
+				<div>{article.content}</div>
+				<div>
+					<span>
+						{#each article.topicID as t }
+							{t.title}
+						{/each}
+					</span>
+					<span>{article.order}</span>
+					<span><img src ="https://app1db-68da.restdb.io/media/{article.picture}" width="200" alt="{article.slug}"/></span>
+				</div>
+				
+			</div>
+		{/each}
+	</div>
 </section>
 
 <style>
