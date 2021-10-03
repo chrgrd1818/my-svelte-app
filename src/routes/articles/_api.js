@@ -1,5 +1,6 @@
-const baseurl = 'https://app1db-68da.restdb.io/rest/articles';
+//const baseurl = 'https://app1db-68da.restdb.io/rest/articles';
 //const baseurl ='https://jsonplaceholder.typicode.com/posts';
+const baseurl = 'https://blog-worker.chrisgrd.workers.dev/articles'
 const init = {
 	headers: { 'cache-control': 'no-cache',
 	'x-apikey': 'acd182cde866b1738d860dca965f68731e231' },
