@@ -36,12 +36,12 @@
 	<div>
 		{#each articles as article (article._id)}
 			<div class='article-{article._id}'>
-				<h2><a href='/article/{article.slug}-{article._id}'>{article.title}</a></h2>
+				<h2><a href='/'>{article.title}</a></h2>
 				<div>{article.content}</div>
 				<div>
 					
 					<span>{article.order}</span>
-					<span><img src ="{article.picture}" width="200" alt="{article.slug}"/></span>
+					<span>{article.picture}></span>
 				</div>
 				
 			</div>
