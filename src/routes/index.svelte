@@ -13,10 +13,11 @@
 <section>
 	<h1>
 		<div class="welcome">
-			<picture>
+			<span class="material-icons md-48">face</span>
+			<!-- <picture>
 				<source srcset="svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
+			</picture> -->
 		</div>
 	</h1>
 	<p>
