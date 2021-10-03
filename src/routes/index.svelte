@@ -18,15 +18,12 @@
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
 		</div>
-
-		to your new<br />SvelteKit app
 	</h1>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra scelerisque sem eget vehicula. Fusce finibus, risus nec volutpat sodales, ipsum massa congue nisl, maximus eleifend elit mauris sed ex. Ut eget justo quis quam auctor aliquet. Cras euismod tincidunt nunc quis varius. Ut id erat eget est pharetra finibus. Proin iaculis condimentum erat varius lacinia. Vestibulum efficitur ligula sed dolor imperdiet, vel mattis dui convallis. Morbi elit diam, posuere in efficitur in, laoreet in nunc. Nullam a rutrum risus. Aliquam tellus sapien, imperdiet vitae sem sit amet, ultricies tempor risus. Aliquam mattis facilisis nisi eget euismod. In mollis arcu eget tellus pulvinar, pellentesque gravida magna aliquet. Nulla convallis lacinia ullamcorper. Nulla ut metus quis urna aliquet interdum. Fusce dignissim odio nunc, sed hendrerit neque bibendum ac. Praesent volutpat mi tincidunt lectus auctor, at tincidunt libero molestie.
+	</p>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	<!-- <Counter /> -->
 </section>
 
 <style>

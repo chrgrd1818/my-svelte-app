@@ -18,28 +18,19 @@
 	<title>About</title>
 </svelte:head>
 
-<div class="content">
-	<h1>About this app</h1>
+<section class="content">
+	<h1>About </h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra scelerisque sem eget vehicula. Fusce finibus, risus nec volutpat sodales, ipsum massa congue nisl, maximus eleifend elit mauris sed ex. Ut eget justo quis quam auctor aliquet. Cras euismod tincidunt nunc quis varius. Ut id erat eget est pharetra finibus. Proin iaculis condimentum erat varius lacinia. Vestibulum efficitur ligula sed dolor imperdiet, vel mattis dui convallis. Morbi elit diam, posuere in efficitur in, laoreet in nunc. Nullam a rutrum risus. Aliquam tellus sapien, imperdiet vitae sem sit amet, ultricies tempor risus. Aliquam mattis facilisis nisi eget euismod. In mollis arcu eget tellus pulvinar, pellentesque gravida magna aliquet. Nulla convallis lacinia ullamcorper. Nulla ut metus quis urna aliquet interdum. Fusce dignissim odio nunc, sed hendrerit neque bibendum ac. Praesent volutpat mi tincidunt lectus auctor, at tincidunt libero molestie.
 	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		Ut viverra eleifend metus facilisis euismod. Fusce nec molestie arcu, a aliquet tortor. Pellentesque non massa massa. Nunc ultrices urna viverra dolor scelerisque placerat sed pretium erat. Nam vehicula nisl risus, eu tristique turpis eleifend eget. Sed vitae tristique arcu, at dapibus leo. Sed et ultrices purus.
 	</p>
-
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		Vivamus sem neque, interdum finibus sem non, faucibus euismod sapien. Sed interdum est vitae nulla eleifend porta. Aenean eu purus eget est sagittis ultricies. Nulla pretium velit eu sollicitudin venenatis. Suspendisse pretium nec dui et semper. Etiam id mi in purus feugiat lobortis. Vestibulum blandit aliquet purus quis pellentesque. Donec quis tortor ex.
 	</p>
-</div>
+</section>
 
 <style>
 	.content {
