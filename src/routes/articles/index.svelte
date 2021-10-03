@@ -39,13 +39,9 @@
 				<h2><a href='/article/{article.slug}-{article._id}'>{article.title}</a></h2>
 				<div>{article.content}</div>
 				<div>
-					<span>
-						{#each article.topicID as t }
-							{t.title}
-						{/each}
-					</span>
+					
 					<span>{article.order}</span>
-					<span><img src ="https://app1db-68da.restdb.io/media/{article.picture}" width="200" alt="{article.slug}"/></span>
+					<span><img src ="{article.picture}" width="200" alt="{article.slug}"/></span>
 				</div>
 				
 			</div>
