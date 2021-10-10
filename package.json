@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "preview": "svelte-kit preview",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.20",
@@ -16,5 +17,9 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
   }
 }
